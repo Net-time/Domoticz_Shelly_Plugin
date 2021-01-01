@@ -24,6 +24,7 @@ Add "Shelly" in the Hardware tab.
 
 ### Build Status
 Thrown together with no respect at all for Python3 or standards.
+
 Todo\:
 - [ ] Cleanup code
 - [ ] Add support to manoeuvre a switch
