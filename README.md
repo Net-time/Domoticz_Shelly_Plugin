@@ -5,6 +5,7 @@ Domoticz plugin for Shelly.
 Developed and tested with:
 Shelly 1 with temperature Addon.
 Shelly Plug.
+
 Tested on Rasbian Buster.
 Domoticz:
 Version: 2020.2
@@ -18,7 +19,9 @@ Not likley.
 
 # Usage
 Create a folder "Shelly" in Domotics/Plugins and copy plugin.py there.
+
 Restart Domoticz.
+
 Add "Shelly" in the Hardware tab.
 
 
