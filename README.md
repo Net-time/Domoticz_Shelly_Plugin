@@ -5,6 +5,7 @@ Domoticz plugin for Shelly.
 Developed and tested with:
 Shelly 1 with temperature Addon.
 Shelly Plug.
+Probably works with Shelly 1/PM but will not show wattage.
 
 Tested on Rasbian Buster.
 Domoticz:
@@ -30,6 +31,5 @@ Thrown together with no respect at all for Python3 or standards.
 
 Todo\:
 - [ ] Cleanup code
-- [ ] Add support to manoeuvre a switch
-- [ ] Finish basic README
-- [ ] Initial upload
+- [x] Finish basic README
+- [x] Initial upload
