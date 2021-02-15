@@ -27,6 +27,8 @@ Add "Shelly" in the Hardware tab.
 
 
 ### Build Status
+0.2.8 Initial release
+0.2.9 Switch on/off response was slow by design as I only check my switches for status, Response is now normal.
 Thrown together with no respect at all for Python3 or standards.
 
 Todo\:
