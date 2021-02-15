@@ -4,7 +4,7 @@
 #
 #
 """
-<plugin key="Shelly" name="Shelly 1" author="Net-Time" version="0.2.8" wikilink="https://github.com/Net-time" externallink="https://www.Shelly.cloud">
+<plugin key="Shelly" name="Shelly 1" author="Net-Time" version="0.2.9" wikilink="https://github.com/Net-time" externallink="https://www.Shelly.cloud">
     <description>
         <h2>Shelly 1, 1/PM with optional temperature probes</h2><br/>
         Checks a Shelly1 Status.
@@ -135,6 +135,7 @@ class BasePlugin:
         else:
             self.commandToSend=self.deviceOff
         self.runAgain = 1
+        onHeartbeat()
         
     def onDisconnect(self, Connection):
         return
